@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: url('images/background.jpg');
+}
+
+.container form{
+    padding: 20px;
+    width: 800px;
+    background: #33A5EA;
+    box-shadow: 0 5px 10px rgb(210, 210, 224);
+    border-radius: 15px;
+}
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    
+}
+
+.container form .row .column{
+    flex: 1 1 250px;
+}
+
+.container form .row .column .heading{
+    font-size: 31px;
+    color: black;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container form .row .column .inptbox{
+    margin: 15px 0;
+}
+
+
+
+
+.container form .row .column .inptbox input{
+    width: 100%;
+    border: 2px solid #C8CACB;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 10px;
+}
+
+#paypal-button-container{
+    width: 80%;
+    padding-left: 150px;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+.container form .row .column .inptbox input:focus{
+    border: 5px solid black;
+}
+
+.container form .row .column .flex{
+    display: flex;
+    gap:15px;
+}
+
+.container form .row .column .flex .inptbox{
+    margin-top: 5px;
+}
+
+
+
+.container form .submitbtn{
+    padding: 12px;
+    width: 30%;
+    font-size: 16px;
+    background: navy;
+    color: white;
+    margin-left: 35%;
+    margin-top: -35px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container form .submitbtn:hover{
+    background: lightskyblue;
+}

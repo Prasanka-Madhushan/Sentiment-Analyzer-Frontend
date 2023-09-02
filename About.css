@@ -1,0 +1,132 @@
+body{
+    background-image: url('images/5.jpg');
+    background-repeat: repeat; 
+    background-size: cover;
+  }
+  
+  .heading1 {
+      display: flex;         
+      justify-content: center;
+      font-size: 22px;
+      font-style: italic;
+      font-family: 'Poppins', sans-serif;
+      text-shadow:0px 8px 4px #312424 ,3px 3px 7px #0902da ;
+      color: #0a9df8;
+      padding-top: 10px;
+      letter-spacing: 2px;
+  }
+  
+  .animation h1 {
+    overflow: hidden; 
+    white-space: nowrap;  
+    margin: 0 auto;   
+    animation: typing 2s steps(120, end);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 130%
+    }
+  }
+
+  .navbar{
+    padding-top: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-top: 1.5px;
+    background-color: #fff;
+  }
+  
+  li.nav{
+    float:left;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li.nav a {
+    display: inline-block;
+    color: #0a9df8;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:21px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  li.nav a:hover{
+    color:white;
+    padding: auto;
+  }
+
+  h2 {
+    padding-top: 55px;
+    font-family: 'Poppins', sans-serif; 
+    padding-left: 44%;
+    text-shadow:0px 5px 3px #0b0b0b ,3px 3px 7px #020127 ;
+    color: #0a9df8;
+    letter-spacing: 2px;
+  }
+
+  .p1{
+    width: 950px;
+    padding-left: 20%;
+    line-height:23px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size:15px;
+    font-weight: 450;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  h3{
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 23px;
+    padding-left: 45%;
+    text-shadow:0px 5px 3px #0b0b0b ,3px 3px 7px #020127 ;
+    color: #0a9df8;
+    letter-spacing: 2px;
+
+  }
+
+  .p2{
+      width: 450px;
+      line-height:20px;
+      padding: 40px;
+      margin-top: -10px;
+      font-family: 'Poppins', sans-serif;
+      font-style: italic;
+      font-size:15px;
+      font-weight: 450;
+      color: #fff;
+      letter-spacing: 1px;
+  }
+
+  #one{
+      background-color:transparent;
+      width:400px;
+      height:500px;
+  }
+  #two{
+      background-color:transparent;
+      width:400px;
+      height:500px;
+  }
+  #three{
+      background-color:transparent;
+      width:400px;
+      height:500px;
+  }
+  .four{
+      margin:40px;
+      float:left;
+      margin-left: 30px;
+          
+  }

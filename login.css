@@ -1,0 +1,135 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://www.linkpicture.com/q/56_3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.box{
+    width: 350px;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.inner-box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.box-front{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.box h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    height: 45px;
+    width: 120%;
+    background: transparent;
+    border: 0.5px solid black;
+    margin: 15px -20px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: black;
+}
+
+.input-box:hover{
+    transform: scale(1.2);
+}
+
+::placeholder{
+    color: dimgray;
+    font-size: 17px;
+}
+
+.submit-btn{
+    width: 50%;
+    padding: 0 50px;
+    background-color: transparent;
+    border-radius: .75rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 50px;
+    margin: 35px 95% 20px 75px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.sign-btn{
+    width: 75%;
+    padding: 0 65px;
+    background-color: black;
+    border-radius: .75rem ;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 40px;
+    margin: 25px 75% 9px 40px;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    background-color: #3271b4;
+    
+}
+
+.sign-btn a{
+    color: white;
+}
+
+.sign-btn2{
+    width: 95%;
+    padding: 0 65px;
+    background-color: black;
+    border-radius: .75rem ;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 40px;
+    margin: 20px 50% 8px 10px;
+    cursor: pointer;
+}
+
+.sign-btn2:hover{
+    background-color: #3271b4;
+    
+}
+
+.sign-btn2 a{
+    color: white;
+}
+
